@@ -275,7 +275,7 @@ const Helmet = () => {
   const moveLeft = () => {
     if (currentIndex === 0) return;
     setCurrentIndex((prev) => prev - 1);
-    gsap.to(carouselRef.current, { x: `+=35vw`, duration: 0.8, ease: "sine.inOut", });
+    gsap.to(carouselRef.current, { x: `+=35vw`, duration: 0.8, ease: "sine.inOut" });
     triggerAnimation("left");
   };
 
@@ -283,7 +283,7 @@ const Helmet = () => {
   const moveRight = () => {
     if (currentIndex === images.length - 1) return;
     setCurrentIndex((prev) => prev + 1);
-    gsap.to(carouselRef.current, { x: `-=35vw`, duration: 0.8, ease: "sine.inOut", });
+    gsap.to(carouselRef.current, { x: `-=35vw`, duration: 0.8, ease: "sine.inOut" });
     triggerAnimation("right");
   };
 
@@ -310,7 +310,7 @@ const Helmet = () => {
         <img ref={seeImgRef} src={see} alt="see" className="absolute w-[5vw]" style={{ visibility: "hidden" }} />
       </div>
       
-        <canvas className="fixed inset-0 z-10" ref={canvasRef}></canvas>
+        <canvas className="fixed inset-0 z-10 pointer-events-none" ref={canvasRef}></canvas>
         <div id="first" className="w-full h-screen section"><Hero/></div>
         <div id="second" className="w-full h-screen section "><Scale/></div>
         <div id="third" className="w-full h-screen section "><Bubble/></div>
