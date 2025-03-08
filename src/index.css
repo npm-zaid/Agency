@@ -1,0 +1,16 @@
+
+
+@font-face {
+    font-family: satoshi;
+    src: url('./Assets/Satoshi-Bold.otf');
+}
+
+body{
+    font-family: satoshi;
+}
+
+*{
+    cursor: none;
+}
+
+
