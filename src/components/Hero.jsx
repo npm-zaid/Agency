@@ -40,7 +40,7 @@ const Hero = () => {
       <div className='Text-Design'>
         {/* First Line */}
         <div className='overflow-hidden'>
-          <h1 className='text-[15vw]  sm:text-[10vw] sm:leading-[9vw] text-center sm:tracking-[-8px]'
+          <h1 className='text-[15vw] leading-[15vw] sm:text-[10vw] sm:leading-[9vw] text-center sm:tracking-[-8px]'
           style={{
              whiteSpace: 'pre-wrap'
           }}>
@@ -52,7 +52,7 @@ const Hero = () => {
 
         {/* Second Line */}
         <div className='overflow-hidden'>
-          <h1 className='text-[15vw] sm:text-[10vw] sm:leading-[9vw] text-center sm:tracking-[-8px]'>
+          <h1 className='text-[15vw] leading-[15vw] sm:text-[10vw] sm:leading-[9vw] text-center sm:tracking-[-8px]'>
             {'AGENCY'.split('').map((item, index) => (
               <span className='inline-block' key={index}>{item}</span>
             ))}
