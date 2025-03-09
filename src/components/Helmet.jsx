@@ -317,7 +317,7 @@ const Helmet = () => {
         <div id="fourth" className="w-full h-screen section"></div>
         <div id="fifth" className="h-screen w-full  section">
           {/* Carousel Container */}
-      <div  className="carousel  h-screen w-full bg-[#E99768] flex items-center gap-5 relative z-[888]">
+      <div  className="carousel  h-screen w-full bg-[#E99768] flex items-center relative z-[888]">
         <button ref={OneRef} onClick={moveLeft} className={`h-full w-full z-50 `}></button>
         <button ref={TwoRef} className="h-full w-full z-50 "></button>
         <button ref={ThreeRef} onClick={moveRight} className={`h-full w-full z-50  `}></button>

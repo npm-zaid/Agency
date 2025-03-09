@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from "react";
 import Helmet from "./components/Helmet";
 import Lenis from '@studio-freight/lenis';
