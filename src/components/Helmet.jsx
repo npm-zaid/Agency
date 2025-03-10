@@ -6,7 +6,6 @@ import helmetModel from '../model/02.glb';
 import texPic from '../Assets/A_C_02.jpg';
 import texPic2 from '../Assets/A_N_02.jpg';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import Hero from './Hero';
 import Scale from './Scale';
 import Bubble from './Bubble';
 import arrow from "../Assets/right-arrow-svgrepo-com.svg";
@@ -14,6 +13,7 @@ import see from "../Assets/add-plus-svgrepo-com.svg";
 import item3 from "../Assets/item1.png";
 import item2 from "../Assets/item2.png";
 import item1 from "../Assets/item3.png";
+import HomePage from '../Unique/HomePage';
 
 const Helmet = () => {
     const canvasRef = useRef();
@@ -311,7 +311,7 @@ const Helmet = () => {
       </div>
       
         <canvas className="fixed inset-0 z-10 pointer-events-none" ref={canvasRef}></canvas>
-        <div id="first" className="w-full h-screen section"><Hero/></div>
+        <div id="first" className="w-full h-screen section"><HomePage/></div>
         <div id="second" className="w-full h-screen section "><Scale/></div>
         <div id="third" className="w-full h-screen section "><Bubble/></div>
         <div id="fourth" className="w-full h-screen section"></div>
