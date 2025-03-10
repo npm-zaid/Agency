@@ -304,7 +304,7 @@ const Helmet = () => {
 
   return (
       <>
-      <div ref={cursorRef} className="cursor h-[50px] w-[50px]   z-[9999]  fixed pointer-events-none flex items-center justify-center"
+      <div ref={cursorRef} className="cursor h-[50px] w-[50px] active:scale-90 z-[9999]  fixed pointer-events-none flex items-center justify-center"
         >
         <img ref={arrowImgRef} src={arrow} alt="arrow" className="absolute w-[5vw]" style={{ visibility: "hidden" }} />
         <img ref={seeImgRef} src={see} alt="see" className="absolute w-[5vw]" style={{ visibility: "hidden" }} />
