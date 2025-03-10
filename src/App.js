@@ -2,7 +2,6 @@
 import React, { useEffect, useRef } from "react";
 import Helmet from "./components/Helmet";
 import Lenis from '@studio-freight/lenis';
-import HomePage from "./Unique/HomePage";
 const App = () => {
 
   const lenisRef = useRef();
