@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../src/assets/Satoshi-Bold.otf');
+  
+}
+body {
+  font-family: 'Satoshi', sans-serif;
+}
+
+.hero{
+  clip-path: polygon(0% 45%, 0% 45%, 0% 55%, 0% 55%);
+  will-change: clip-path;
+}
+
+.wrapper{
+  clip-path: polygon(20% 20%, 80% 20%, 80% 80%, 20% 80%);
+}
