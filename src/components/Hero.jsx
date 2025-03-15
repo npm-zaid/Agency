@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import logo from '../Assets/agency-logo.png';
-import arrow from '../Assets/right-arrow-svgrepo-com.svg';
+import logo from '../assets/agency-logo.png';
+import arrow from '../assets/right-arrow-svgrepo-com.svg';
 import gsap from 'gsap';
 
 const Hero = ({ animationDelay }) => { 

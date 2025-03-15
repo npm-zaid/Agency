@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import pic1 from '../Assets/image1.png';
-import pic2 from '../Assets/image2.png';
-import pic3 from '../Assets/image3.png';
+import pic1 from '../assets/image1.png';
+import pic2 from '../assets/image2.png';
+import pic3 from '../assets/image3.png';
 
 const ImageBubbles = () => {
     const bubbleContainerRef = useRef(null);
