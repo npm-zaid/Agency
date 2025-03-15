@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import banner from '../Assets/banner.mp4'
+import banner from '../assets/banner.mp4'
 const Scale = () => {
   const sectionRef = useRef(null);
   const scaleBoxRef = useRef(null);
